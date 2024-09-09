@@ -1,0 +1,62 @@
+body{
+    background-color: antiquewhite;
+}
+
+
+h1{
+    text-align: center;
+    font-family: "Poppins",Arial, sans-serif;
+}
+
+
+label {
+    font-family: "Poppins",Arial, sans-serif;
+    margin-bottom: 0px;
+    display: block;
+    font-size: 15px;
+}
+
+form{
+    padding: 20px;
+    margin: 40px auto;
+    margin-bottom: 100px;
+    border: 2px solid rgba(255, 220, 107, 0.892);
+    border-radius: 8px;
+    background-color: rgb(255, 245, 232);
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+input[type="reset"] {
+    padding: 5px 20px;
+    border: none;
+    background-color: rgb(255, 210, 151);
+}
+
+input[type="reset"]:hover{
+    background-color: rgb(255, 184, 91);
+}
+
+input[type="submit"] {
+    padding: 5px 20px;
+    border: none;
+    background-color: rgb(255, 210, 151);
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(255, 184, 91);
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 50%;
+    padding: 10px;
+    /* margin-bottom: 15px; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
